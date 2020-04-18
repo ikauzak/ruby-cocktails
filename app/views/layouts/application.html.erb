@@ -10,6 +10,12 @@
   </head>
 
   <body>
-    <%= yield %>
+      <div class="container">
+          <h1>Time is <%= Time.now %></h1>
+
+          <p>A very simple footer</p>
+
+          <%= yield %>
+      </div>
   </body>
 </html>
